@@ -10,7 +10,7 @@ class Board
 
     def from_file
         arr = []
-        File.readlines("puzzles/sudoku1_almost.txt").each do |line|
+        File.readlines("puzzles/sudoku1.txt").each do |line|
             line.chomp.each_char do |ele|
                 arr << Tile.new(ele.to_i)
             end

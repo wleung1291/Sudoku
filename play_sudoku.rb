@@ -29,7 +29,7 @@ class Play_Sudoku
             print "Enter a number from 0 to 9: "
             val = gets.chomp
             
-            # cehcks if the value entered is within range
+            # Checks if the value entered is within range
             if val.length == 1
                 valid_val = true if val.to_i >=0 && val.to_i <= 9
             end
